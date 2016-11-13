@@ -1,0 +1,54 @@
+/*CSS style*/
+
+
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: Arial, sans-serif;
+	background-color: #cecece;
+}
+
+ a{
+
+	text-decoration: none;
+	color: #fff;
+}
+
+.menu{	
+	
+	margin: 10px;
+	padding-left: 50px;
+	font-size: 12px;
+	width: 600px;
+	background: url(img/bg-menu.gif) repeat-x 0 0;
+	border-radius: 5px;	
+}
+
+.menu ul{
+
+}
+
+
+.menu ul li{	
+	
+	display: inline-block;
+	list-style-type: none;	
+	padding: 18px 8px 17px 9px;
+	margin-left: -4px;
+}
+
+.menu ul li.current {
+
+	background: url(img/bg-menu-hover.gif) 0 0 repeat-x;	
+	border-radius: 5px;
+}
+
+ .menu ul li:hover {
+
+	background: url(img/bg-menu-hover.gif) 0 0 repeat-x;	
+	border-radius: 5px;
+
+}
+
